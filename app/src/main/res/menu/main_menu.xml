@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home"
+        android:title="HOME">
+
+    </item>
+    <item
+        android:icon="@drawable/baseline_phone_24"
+        android:id="@+id/contact"
+        android:title="CONTACT">
+
+    </item>
+    <item
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/settings"
+        android:title="SETTINGS">
+
+    </item>
+
+    <item android:title="profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:id="@+id/about"
+                    android:title="ABOUT">
+
+                </item>
+                <item
+                    android:icon="@drawable/baseline_update_24"
+                    android:id="@+id/updateprofile"
+                    android:title="@string/update_profile">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@android:drawable/btn_star"
+                    android:id="@+id/rate"
+                    android:title="@string/rate_us">
+
+                </item>
+                <item
+                    android:icon="@android:drawable/ic_menu_share"
+                    android:id="@+id/share"
+                    android:title="@string/share">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/baseline_logout_24"
+        android:id="@+id/logout"
+        android:title="LOGOUT">
+
+    </item>
+</group>
+</menu>

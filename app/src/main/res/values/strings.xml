@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Vitals-App</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="todo">TODO</string>
+
+    <string name="appname">Navigation Drawer</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="share">SHARE</string>
+    <string name="rate_us">RATE US</string>
+    <string name="communication">communication</string>
+    <string name="update_profile">UPDATE PROFILE</string>
+</resources>
